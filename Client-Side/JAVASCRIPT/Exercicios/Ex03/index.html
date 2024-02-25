@@ -33,11 +33,14 @@
 
         var n1 = Number(prompt('Informe um número: '));
         var n2 = Number(prompt('Informe um número: '));
+        var salario = Number(prompt('Informe o seu Salario: '));
         var soma = n1 + n2;
-
+        var s = salario.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'});
+        
         alert(`A soma entre ${n1} e ${n2} é ${soma}`);
 
-        document.write(` <p> A soma entre <strong>${n1}</strong> mais <strong>${n2}</strong> é <strong>${soma}</strong> </p>`)
+        document.write(` <p> A soma entre <strong>${n1}</strong> mais <strong>${n2}</strong> é <strong>${soma}</strong> </p>`);
+        document.write(` <p> O seu Salario é de: ${s}</p> `);
     </script>
 </body>
 </html>
