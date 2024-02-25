@@ -79,7 +79,7 @@ main {
     text-align: center;
     background-color:  rgba(223, 223, 223, 0.642);;
      
-    & div {
+    & .box {
         margin: 2.5% 2.5%;
         text-align: center;
         display: inline-block;
