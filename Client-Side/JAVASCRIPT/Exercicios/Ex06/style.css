@@ -1,0 +1,17 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    color: white;
+
+    & .txt {
+        padding-top: 80px;
+        font-size: 25px;
+    }
+}

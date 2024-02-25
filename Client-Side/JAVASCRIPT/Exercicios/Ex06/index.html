@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title> Ex06 </title>
+</head>
+<body>
+
+    <p> Inicio De Tudo</p>
+
+    <div class="id">
+        <p class="txt" onclick="clicar()"> Clicar Aqui </p>
+    </div>
+
+    <script>
+        function clicar(){
+            botao = document.getElementsByClassName('id')
+            botao2 = document.getElementsByClassName('txt')
+            
+            botao.innerHtml = 'Clicou 1'
+            botao2.innerText = 'Clicou 2'
+
+            botao.style.background = 'green'
+            botao2.style.background = 'blue'
+
+
+        }
+    </script>
+</body>
+</html>
