@@ -5,26 +5,45 @@
     <title> ph </title>
 </head>
 <body>
-    <h1> inicio de tudo </h1>
     <p> primeiro paragrafo </p>
     <p> segundo paragrafo </p>
 
-    <h1 class="titulo"> Titulo um</h1>
-    <p id="parag"> descriçao do titulo um </p>
+    <h1 name="titulo"> Titulo um</h1>
 
-    <h1 class="class2"> Titulo dois</h1>
-    <p id="id2"> descriçao do titulo dois</p>
+    <p id="parag"> descriçao </p>
+
+    <p class="parag2"> descreçao </p>
+    <p id="parag3"> descriçao </p>
+
+    <p class="box"> testes </p>
+    <p class="box"> testes </p>
+    <p class="box"> testes </p>
 
     <script>
 
-        /* var p0 = document.getElementsByTagName('p')[0]
-        p0.innerHTML = 'Mudei a escrita o primeiro paragrafo'
+        var p0 = document.getElementsByTagName('p')[0]
+        p0.innerHTML = 'Mudei a escrita do primeiro paragrafo'
+        p0.style.color = 'blue'
+
+        var p1 = document.getElementsByTagName('p')[1]
+        p1.innerHTML = 'Mudei a escrita do segundo paragrafo'
+        p1.style.color = 'red'
+
+        var titulo = document.getElementsByName('titulo')[0]
+        titulo.innerHTML = 'Titulo Novo'
+        titulo.style.color = 'pink'
 
         var p1 = document.getElementById('parag')
-        p1.style.color = 'blue' 
-        */
-        
-        
+        p1.style.color = 'yellow' 
+
+        var parag2 = document.querySelector('.parag2')
+        parag2.innerHTML = 'teste paragrafo um'
+        parag2.style.color = 'red'
+
+        var parag = document.querySelector('.parag3')
+        parag3.innerHTML = 'teste paragrafo dois'
+        parag3.style.color = 'red'
+
     </script>
 </body>
 </html>
