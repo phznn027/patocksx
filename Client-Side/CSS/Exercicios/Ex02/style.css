@@ -36,10 +36,10 @@ main {
         }
         
         & .capa2 {
-            width: 320px;
-            height: 210px;
+            width: 200px;
             margin-bottom: 15px;
-            border-radius: 100px;
+            border-radius: 100%;
+            margin-left: 50px;
         }
 
         & h1 {

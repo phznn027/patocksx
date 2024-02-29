@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> ph </title>
+</head>
+<body>
+    <h1> inicio de tudo </h1>
+    <p> primeiro paragrafo </p>
+    <p> segundo paragrafo </p>
+
+    <h1 class="titulo"> Titulo um</h1>
+    <p id="parag"> descriçao do titulo um </p>
+
+    <h1 class="class2"> Titulo dois</h1>
+    <p id="id2"> descriçao do titulo dois</p>
+
+    <script>
+
+        var p0 = document.getElementsByTagName('p')[0]
+        p0.innerHTML = 'Mudei a escrita o primeiro paragrafo'
+
+        var p1 = document.getElementById('parag')
+        p1.style.color = 'blue' 
+
+    </script>
+</body>
+</html>
