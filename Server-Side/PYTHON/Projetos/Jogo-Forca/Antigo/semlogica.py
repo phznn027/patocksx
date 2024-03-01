@@ -1,3 +1,8 @@
+'''
+esse foi o primeiro jogo da forca que fiz, a logica esta horrivel, 
+mas salvei para ve minhas evolucao, e entender as merddas que estava fazendo 
+'''
+
 print('Jogo da Forca PATOCKSX!')
 
 começar = input('Digite "jogar" para começar: ')
@@ -44,3 +49,5 @@ def forca():
 print('o jogo acabou')
 
 forca()
+
+
