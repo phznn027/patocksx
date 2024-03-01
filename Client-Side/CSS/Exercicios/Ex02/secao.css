@@ -54,6 +54,42 @@ main {
     }
 }
 
+#form-dinamico {
+    display: none;
+    position: fixed;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 9999;
+
+    & button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    & button:hover {
+        background-color: #0056b3;
+    }
+
+    &  #botaocancelar {
+        background-color: rgba(239, 28, 28, 0.973);
+    }
+
+    & #botaocancelar:hover {
+        background-color: rgb(157, 16, 16)
+    }
+}
+
 footer {
     background-color: rgb(101, 101, 101);
     text-align: center;

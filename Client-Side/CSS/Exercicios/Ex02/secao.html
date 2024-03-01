@@ -18,11 +18,46 @@
         <div class="box">
             <video src="video.mp4"></video>
         </div>
-        <button type="submit"> Inscreve-se </button>
+
+        <button id="botaovolta" type="submit"> Voltar </button>
+        <button id="botaoformu" type="submit"> Inscreve-se </button>
     </main>
+
+    <div id="form-dinamico">
+        <form>
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+            
+            <label>Turno:</label><br>
+            <input type="radio" id="dia" name="turno" value="dia">
+            <label for="dia">Dia</label><br>
+            
+            <input type="radio" id="tarde" name="turno" value="tarde">
+            <label for="tarde">Tarde</label><br>
+            
+            <input type="radio" id="noite" name="turno" value="noite">
+            <label for="noite">Noite</label><br><br>
+            
+            <button id="botaocancelar"> Cancelar </button>
+            <button id="botaoconfirm" type="submit"> Confirmar </button>        
+        </form>
+    </div>
 
     <footer>
         <h1> DESENVOLVIDOR POR PHNNKS </h1>
     </footer>
+
+    <script>
+        document.getElementById('botaoformu').addEventListener('click', mostrarFormulario)
+        document.getElementById('botaocancelar').addEventListener('click', dsform)
+
+        function mostrarFormulario() {
+            document.getElementById("form-dinamico").style.display = "block";
+        }
+
+        function dsform() {
+            document.getElementById("form-dinamico").style.display = "none";
+        }
+    </script>
 </body>
 </html>
