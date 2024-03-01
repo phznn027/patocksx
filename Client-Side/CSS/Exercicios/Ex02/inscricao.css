@@ -18,13 +18,39 @@
 }
 
 main {
-    margin: 30px 0;
+    margin: 15px 300px;
     background-color: antiquewhite;
+    width: 600px;
+    height: 1100px;
+    text-align: center;
 
-    & section {
-        width: 350px;
-        height: auto;
-        background: rgb(215, 142, 142);
+    & img {
+        width: 520px;
+        height: 410px;
+        margin: 10px;
+    }
+
+    & h1 {
+        font-size: 50px;
+
+    }
+
+    & p {
+        font-size: 25px;
+    }
+
+    & .box {
+        width: 580px;
+        height: 350px;
+        background-color: aquamarine;
+        margin: 0px 10px;
+        margin-top: 100px;
+    }
+
+    & button {
+        padding: 20px;
+        font-size: 20px;
+        margin-top: 50px;
     }
 }
 
