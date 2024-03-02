@@ -6,9 +6,12 @@
     padding: 0%;
 } 
 
+body {
+    background-color: rgba(205, 205, 205, 0.802);
+}
 
 .navbar {
-    background-color: coral;
+    background-color: rgb(0, 190, 247);
 
     & img {
         width: 200px;
@@ -19,10 +22,12 @@
 
 main {
     margin: 15px 300px;
-    background-color: antiquewhite;
+    background-color: aliceblue;
     width: 600px;
     height: 1100px;
     text-align: center;
+    box-shadow: 2px 3px 2px rgba(141, 141, 141, 0.705);
+
 
     & img {
         width: 550px;
@@ -32,7 +37,6 @@ main {
 
     & h1 {
         font-size: 50px;
-
     }
 
     & p {
@@ -42,7 +46,6 @@ main {
     & .box {
         width: 580px;
         height: 350px;
-        background-color: aquamarine;
         margin: 0px 10px;
         margin-top: 100px;
     }
@@ -51,6 +54,24 @@ main {
         padding: 20px;
         font-size: 20px;
         margin-top: 50px;
+        padding: 15px 25px;
+        border-radius: 100px;
+        background-color: rgb(5, 143, 255);
+        border: none;
+        color: white;
+        box-shadow: 2px 3px 2px rgba(141, 141, 141, 0.705);
+    }
+
+    & button:hover {
+        background-color: rgba(0, 140, 255, 0.459);
+    }
+
+    & #botaovolta {
+        background-color: rgb(255, 27, 27);
+    }
+
+    & #botaovolta:hover {
+        background-color: rgba(255, 27, 27, 0.442);
     }
 }
 
@@ -62,9 +83,9 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: rgb(205, 205, 205);
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 2px 3px 2px rgba(141, 141, 141, 0.705);
     z-index: 9999;
 
     & input[type="text"] {
@@ -75,36 +96,40 @@ main {
         border-radius: 5px;
         box-sizing: border-box;
     }
-    
-    & input, label {
+
+    & input {
         font-size: 20px;
+    }
+    
+    label {
+        font-size: 28px;
     }
 
     & button {
-        margin-top: 20px;
-        padding: 16px 26px;
+        padding: 20px;
         font-size: 20px;
-        background-color: #007bff;
-        color: white;
+        margin-top: 50px;
+        padding: 15px 25px;
+        border-radius: 100px;
+        background-color: rgb(5, 143, 255);
         border: none;
-        border-radius: 5px;
-        cursor: pointer;
+        color: white;
+        box-shadow: 2px 3px 2px rgba(141, 141, 141, 0.705);
     }
 
     & button:hover {
-        background-color: #0056b3;
+        background-color: rgba(0, 140, 255, 0.459);
     }
 
-    &  #botaocancelar {
-        background-color: rgba(239, 28, 28, 0.973);
+    & #botaocancelar {
+        background-color: rgb(255, 27, 27);
         margin-left: 220px;
     }
 
     & #botaocancelar:hover {
-        background-color: rgb(157, 16, 16)
+        background-color: rgba(255, 27, 27, 0.442);
     }
 }
-
 
 footer {
     background-color: rgb(101, 101, 101);
