@@ -3,5 +3,5 @@ formular_impar_par = numero % 2
 
 if formular_impar_par == 0:
     print(f'O numero que voce digitou: {numero} é PAR!')
-elif formular_impar_par == 1:
+else:
     print(f'O numero que voce digitou: {numero} é IMPAR!')
