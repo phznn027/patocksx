@@ -32,7 +32,7 @@ def forca():
         if tentativa == palavra:
             print(f'Sucesso voce acertou, a palavra era {palavra}')
             continua = [str(input('Se desejar continua digite [S/s]. Se nao desejar continua digite enter: '))]
-            if continua == ['S']:
+            if continua == 's' or 'S':
                 print('Jogo sendo reiniciado!')
                 acerta = False
                 forca()
@@ -43,3 +43,4 @@ def forca():
             print('Voce errou! mas tem mais tentativas.')
             
 forca()
+
