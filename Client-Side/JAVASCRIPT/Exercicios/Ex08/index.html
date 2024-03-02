@@ -15,24 +15,19 @@
             <label for="number2"> Numero:   </label>
             <input type="number" id="number2"> <br>
             <p id="resultado"> Resultado aqui</p>
-            <button id="botao" type="submit"> somar </button>
+            <button id="botao" type="button" onclick="somar()"> Somar </button>
         </form>
     </section>
 
     <script>
-        var number1 = document.querySelector('#number1')
-        var number2 = document.querySelector('#Number2')
-        var resultado = document.getElementById('resultado')
-        document.getElementById('botao').addEventListener('click', somar)
+        function somar() {
+            let num1 = parseFloat(document.getElementById('number1').value);
+            let num2 = parseFloat(document.getElementById('number2').value);
 
-        var n1 = Number(number1.value)
-        var n2 = Number(number2.value)
-        var s = n1 + n2
+            let resultado = num1 + num2;
 
-        function somar(){
-            resultado.innerHTML = `${s}` 
+            document.getElementById('resultado').innerText = `Resultado: ${resultado}`;
         }
-        
     </script>
 </body>
 </html>
