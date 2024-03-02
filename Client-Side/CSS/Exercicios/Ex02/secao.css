@@ -25,7 +25,7 @@ main {
     text-align: center;
 
     & img {
-        width: 520px;
+        width: 550px;
         height: 410px;
         margin: 10px;
     }
@@ -67,9 +67,23 @@ main {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     z-index: 9999;
 
+    & input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    & input, label {
+        font-size: 20px;
+    }
+
     & button {
         margin-top: 20px;
-        padding: 10px 20px;
+        padding: 16px 26px;
+        font-size: 20px;
         background-color: #007bff;
         color: white;
         border: none;
@@ -83,12 +97,14 @@ main {
 
     &  #botaocancelar {
         background-color: rgba(239, 28, 28, 0.973);
+        margin-left: 220px;
     }
 
     & #botaocancelar:hover {
         background-color: rgb(157, 16, 16)
     }
 }
+
 
 footer {
     background-color: rgb(101, 101, 101);
