@@ -16,33 +16,43 @@
             <img class="capa" src="imagens/capa.jpeg" alt="Capa.png">
             <h1> Titulo </h1>
             <p> Descriçao </p>
-            <button type="submit"> <a href="secao.html"> Acessar </a> </button>
+            <button class="acessar" type="button"> Acessar </button>
         </section>
 
         <section>
             <img class="capa" src="imagens/capa.jpeg" alt="Capa.png">
             <h1> Titulo </h1>
             <p> Descriçao </p>
-            <button type="submit"> Acessar </button>
+            <button class="acessar" type="button"> Acessar </button>
         </section>
 
         <section>
             <img class="capa" src="imagens/capa.jpeg" alt="Capa.png">
             <h1> Titulo </h1>
             <p> Descriçao </p>
-            <button type="submit"> Acessar </button>
+            <button class="acessar" type="button"> Acessar </button>
         </section>
 
         <section>
             <img class="capa2" src="imagens/capa2.jpeg" alt="Capa.png">
             <h1> Titulo </h1>
             <p> Descriçao </p>
-            <button type="submit"> Acessar </button>
+            <button class="acessar" type="button"> Acessar </button>
         </section>
     </main>
 
     <footer>
-        <h1> DESENVOLVIDOR POR PHZNNKS</h1>
+        <h1> DESENVOLVIDO POR PHZNNKS</h1>
     </footer>
+
+    <script>
+        const botoesAcessar = document.querySelectorAll('.acessar');
+
+        botoesAcessar.forEach(botao => {
+            botao.addEventListener('click', () => {
+                window.location.href = 'secao.html';
+            });
+        });
+    </script>
 </body>
 </html>
