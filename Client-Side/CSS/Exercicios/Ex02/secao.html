@@ -39,7 +39,7 @@
             <label for="noite">Noite</label><br><br>
             
             <button id="botaocancelar"> Cancelar </button>
-            <button id="botaoconfirm" type="submit"> Confirmar </button>        
+            <button id="botaoconfirm"> Confirmar </button>        
         </form>
     </div>
 
@@ -49,15 +49,21 @@
 
     <script>
         document.getElementById('botaoformu').addEventListener('click', mostrarFormulario)
-        document.getElementById('botaocancelar').addEventListener('click', dsform)
+        document.getElementById('botaocancelar').addEventListener('click', bcancelar)
+        document.getElementById('botaovolta').addEventListener('click', bvolta)
 
         function mostrarFormulario() {
             document.getElementById("form-dinamico").style.display = "block";
         }
 
-        function dsform() {
-            document.getElementById("form-dinamico").style.display = "none";
+        function bcancelar() {
+            window.location.href = 'secao.html';
         }
+
+        function bvolta() {
+            window.location.href = 'index.html';
+        }
+
     </script>
 </body>
 </html>

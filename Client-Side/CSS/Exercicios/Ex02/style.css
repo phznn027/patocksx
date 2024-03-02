@@ -37,6 +37,8 @@ main {
             width: 320px;
             height: 210px;
             margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 3px 2px rgba(141, 141, 141, 0.705);
         }
         
         & .capa2 {
@@ -44,6 +46,7 @@ main {
             margin-bottom: 15px;
             border-radius: 100%;
             margin-left: 50px;
+            box-shadow: 2px 3px 2px rgba(141, 141, 141, 0.705);
         }
 
         & h1 {
