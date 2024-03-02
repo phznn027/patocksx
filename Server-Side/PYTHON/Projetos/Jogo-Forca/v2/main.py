@@ -28,7 +28,6 @@ def forca():
         acerta = False
 
     while acerta:
-        print(palavra)
         tentativa = str(input('Digite a palavra que acha que é: '))
         if tentativa == palavra:
             print(f'Sucesso voce acertou, a palavra era {palavra}')
