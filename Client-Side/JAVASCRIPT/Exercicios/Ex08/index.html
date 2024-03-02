@@ -14,14 +14,24 @@
             <p> + </p>
             <label for="number2"> Numero:   </label>
             <input type="number" id="number2"> <br>
-
-            <button type="submit"> somar </button>
+            <p id="resultado"> Resultado aqui</p>
+            <button id="botao" type="submit"> somar </button>
         </form>
     </section>
 
     <script>
-        var number1 = document.getElementById('number1')
-        var number2 = document.getElementById('Number2')
+        var number1 = document.querySelector('#number1')
+        var number2 = document.querySelector('#Number2')
+        var resultado = document.getElementById('resultado')
+        document.getElementById('botao').addEventListener('click', somar)
+
+        var n1 = Number(number1.value)
+        var n2 = Number(number2.value)
+        var s = n1 + n2
+
+        function somar(){
+            resultado.innerHTML = `${s}` 
+        }
         
     </script>
 </body>
