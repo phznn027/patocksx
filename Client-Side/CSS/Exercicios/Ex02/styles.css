@@ -21,14 +21,14 @@ body {
 }
 
 main {
-    margin: 20px 10px;
+    margin: 20px 5px;
     
     & section {
         width: 310px;
         height: 450px;
         background-color: aliceblue;
         display: inline-block;
-        margin: 15px 20px;
+        margin: 15px 15px;
         padding: 20px;
         box-shadow: 2px 3px 2px rgba(141, 141, 141, 0.705);
         border-radius: 8px;
