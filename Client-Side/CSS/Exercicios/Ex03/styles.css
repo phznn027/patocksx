@@ -35,6 +35,7 @@ p {
     font-size: 20px;
 }
 
+
 main {
     background: white;
     margin-left: 80px;
@@ -48,9 +49,17 @@ main > p {
     text-indent: 1em;
 }
 
+main > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(38, 107, 37);
+}
+
+#h1backg {
+    background-image: linear-gradient(90deg, rgba(39, 172, 68, 0.403), rgba(80, 128, 80, 0.349), white);
+    margin: 10px 0;
+}
+
 footer {
     width: 100px;
     height: 100px;
 }
-
-gh repo clone gustavoguanabara/html-css
