@@ -47,7 +47,7 @@ main {
 }
 
 main > .bugdroid {
-    padding-left: 50%;
+    margin-left: 50%;
 }
 main > .dandroids, .irinabloc {
     width: 100%;
