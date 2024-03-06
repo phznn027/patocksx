@@ -26,31 +26,29 @@ p {
 
 .navbar h1, p {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .navbar > ul > li {
     display: inline-block;
     margin: 5px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 main {
     background: white;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
     box-shadow: 1px 1px 1px rgba(137, 134, 134, 0.454);
-
-}
-section {
-    margin: 10px;
 }
 
-section > p, h1 {
+main > p {
     text-align: justify;
-    margin-left: 20px;
+    text-indent: 1em;
 }
 
 footer {
-    top: 100px;
+    width: 100px;
+    height: 100px;
 }
