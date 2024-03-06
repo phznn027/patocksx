@@ -37,11 +37,20 @@ p {
 
 
 main {
+    max-width: 100%;
+    max-height: 100%;
     background: white;
     margin-left: 80px;
     margin-right: 80px;
     padding: 10px;
     box-shadow: 1px 1px 1px rgba(137, 134, 134, 0.454);
+}
+
+main > .bugdroid {
+    padding-left: 50%;
+}
+main > .dandroids, .irinabloc {
+    width: 100%;
 }
 
 main > p {
