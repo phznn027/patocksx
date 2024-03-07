@@ -1,6 +1,7 @@
 # Exercicios Especial 01
 
 import random
+import time
 
 def forca():
     comida = ['arroz', 'feijao', 'carne']
@@ -31,12 +32,13 @@ def forca():
         tentativa = str(input('Digite a palavra que acha que é: '))
         if tentativa == palavra:
             print(f'Sucesso voce acertou, a palavra era {palavra}')
-            continua = [str(input('Se desejar continua digite [S/s]. Se nao desejar continua digite enter: '))]
-            if continua == 's' or 'S':
+            continua = str(input('Se nao desejar continua digite [Nao], Se desejar continua aperte enter: '))
+            if continua in 'Sim sim s S':
                 print('Jogo sendo reiniciado!')
-                acerta = False
+                print('AGUARDE...')
+                time.sleep(3)
                 forca()
-            else:
+            elif continua in 'Nao nao n N':
                 print('Jogo sendo fechado')
                 acerta = False
         else:
