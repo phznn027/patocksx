@@ -26,7 +26,8 @@ section {
         }
 
         & input {
-            font-size: 10px;
+            width: 125px;
+            font-size: 15px;
             padding: 5px;
         }
 
