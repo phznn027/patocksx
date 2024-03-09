@@ -5,10 +5,13 @@ militar, se é a hora exata de se alistar ou se já passou do tempo do
 alistamento. Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
  '''
 
+from datetime import date
+
+ano_atual = date.today().year
 idade_nascimento = int(input('Informe sua data de nacimento: '))
 idade_atual = 2024 - idade_nascimento
 
-print(f'Quem nasceu em {idade_nascimento} tem {idade_atual}anos em 2024.')
+print(f'Quem nasceu em {idade_nascimento} tem {idade_atual}anos em {ano_atual}.')
 
 if idade_atual > 18:
     idade_inscricao = idade_atual - 18 
