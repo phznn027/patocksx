@@ -18,61 +18,61 @@ time.sleep(0.5)
 print('PO')
 
 if opcao_jogador == 1:
-    print('-=-' * 20)
+    print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
     print('VOCE ESCOLHEU: PEDRA')
 
     if opcao_computador == 1:
         print('COMPUTADOR ESCOLHEU: PEDRA')
-        print('-=-' * 20)
         print('PARTIDA: EMPATE!')
+        print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
 
     elif opcao_computador == 2:
         print('COMPUTADOR ESCOLHEU: PAPEL')
-        print('-=-' * 20)
         print('PARTIDA: COMPUTADOR GANHOU!')
+        print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
 
     elif opcao_computador == 3:
         print('COMPUTADOR ESCOLHEU: TESOURA')
-        print('-=-' * 20)
         print('PARTIDA: VOCE GANHOU!')
+        print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
 
 elif opcao_jogador == 2:
-    print('-=-' * 20)
+    print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
     print('VOCE ESCONHEU: PAPEL')
 
     if opcao_computador == 1:
         print('COMPUTADOR ESCOLHEU: PEDRA')
-        print('-=-' * 20)
         print('PARTIDA: VOCE GANHOU!')
+        print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
 
     elif opcao_computador == 2:
         print('COMPUTADOR ESCOLHEU: PAPEL')
-        print('-=-' * 20)
         print('PARTIDA: EMPATE!')
+        print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
 
     elif opcao_computador == 3:
         print('COMPUTADOR ESCOLHEU: TESOURA')
-        print('-=-' * 20)
         print('PARTIDA: COMPUTADOR GANHOU!')
+        print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
 
 elif opcao_jogador == 3:
-    print('-=-' * 20)
+    print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
     print('VOCE ESCONHEU: TESOURA')
     
     if opcao_computador == 1:
         print('COMPUTADOR ESCOLHEU: PEDRA')
-        print('-=-' * 20)
         print('PARTIDA: COMPUTADOR GANHOU!')
+        print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
 
     elif opcao_computador == 2:
         print('COMPUTADOR ESCOLHEU: PAPEL')
-        print('-=-' * 20)
         print('PARIDA: VOCE GANHOU!')
+        print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
 
     elif opcao_computador == 3: 
         print('COMPUTADOR ESCOLHEU: TESOURA')
-        print('-=-' * 20)
         print('PARTIDA: EMPATE!')
+        print('-=-' * 10 +  'RESULTADO' + '-=-' * 10)
 
 else: 
     print(f'\033[0;31m' + 'ERRO: ' + '\033[0m' + 'Voce nao digitou nenhuma das opcoes acima.')
