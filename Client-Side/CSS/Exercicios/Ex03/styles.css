@@ -7,6 +7,8 @@
 }
 
 body {
+    min-width: 300px;
+    max-width: 100%;
     background: rgb(180, 255, 189);
 }
     
@@ -36,24 +38,29 @@ p {
 }
 
 main {
+    min-width: 200px;
     max-width: 100%;
-    max-height: 100%;
     background: white;
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px;
-    box-shadow: 1px 1px 1px rgba(137, 134, 134, 0.454);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.574);
 }
 
 img {
     margin: 2px 0;
 }
 
-main > .bugdroid {
-    padding-left: 30%;
-}
-main > .dandroids, .irinabloc {
+main > .dandroids, .irinabloc, .bugdroid {
     width: 100%;
+}
+
+.bugdroid {
+    width: 60%;
+    display: block;
+    margin: auto;
 }
 
 main > p {
@@ -97,11 +104,6 @@ section > span {
     font-size: 25px;
     display: inline-block;
     margin-left: 50px;
-}
-
-.span2 > ul {
-    margin-left: 200px;
-    margin-bottom: 10px;
 }
 
 footer {
